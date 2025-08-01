@@ -31,7 +31,7 @@ next_btn.addEventListener('click', (e) => {
 })
 
 const scrollContainer = document.querySelectorAll('.products');
-// Adjust this value to change scroll speed
+
 
 for (const item of scrollContainer) {
     item.addEventListener('wheel', (evt) => {
